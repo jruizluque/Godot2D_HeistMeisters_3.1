@@ -5,11 +5,11 @@
 [ext_resource path="res://GFX/PNG/Hitman 1/hitman1_stand.png" type="Texture" id=3]
 [ext_resource path="res://Lightmaps/Torch.tscn" type="PackedScene" id=4]
 
-[node name="Player" index="0" instance=ExtResource( 1 )]
+[node name="Player" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
 [node name="Sprite" parent="." index="0"]
 texture = ExtResource( 3 )
 
 [node name="Torch" parent="." index="2" instance=ExtResource( 4 )]
-offset = Vector2( 330, 0 )
+position = Vector2( 15, 0 )
