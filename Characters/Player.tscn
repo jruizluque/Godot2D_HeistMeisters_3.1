@@ -12,4 +12,5 @@ script = ExtResource( 2 )
 texture = ExtResource( 3 )
 
 [node name="Torch" parent="." index="2" instance=ExtResource( 4 )]
+visible = false
 position = Vector2( 15, 0 )
