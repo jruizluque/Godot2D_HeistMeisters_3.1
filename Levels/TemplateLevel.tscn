@@ -365,6 +365,7 @@ points = PoolVector2Array( 0, 8, 36, 8, 40, 4, 44, 0, 48, 0, 52, 4, 56, 8, 56, 3
 [node name="TemplateLevel" type="Node2D"]
 
 [node name="Navigation2D" type="Navigation2D" parent="."]
+editor/display_folded = true
 
 [node name="TileMap" type="TileMap" parent="Navigation2D"]
 tile_set = ExtResource( 1 )
@@ -380,6 +381,7 @@ tile_set = SubResource( 31 )
 format = 1
 
 [node name="Player" parent="." instance=ExtResource( 3 )]
+editor/display_folded = true
 position = Vector2( -199.921, -196.748 )
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
@@ -390,3 +392,5 @@ current = true
 [node name="Cameras" type="Node2D" parent="."]
 
 [node name="Guards" type="Node" parent="."]
+
+[node name="Doors" type="Node" parent="."]
