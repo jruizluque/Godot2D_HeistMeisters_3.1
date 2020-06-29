@@ -396,3 +396,5 @@ current = true
 [node name="Doors" type="Node" parent="."]
 
 [node name="LockedDoors" type="Node" parent="."]
+
+[node name="Computers" type="Node" parent="."]
